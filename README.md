@@ -4,7 +4,7 @@ Download the numbered **DMG** from the [latest Mac release](https://github.com/m
 
 On a new Mac, open the disk image and drag **NotifyRelay Sender** onto **Applications**. Eject the image and open the app from Applications. Choose your Apple push key and pair your iPhone by QR.
 
-If you already run a development build, open the app on the disk image and choose **Install in Applications**. If it reports a different active sender, choose **Stop Forwarding** in the installed app, retry the installation, then choose **Start Forwarding at Login** in the updated app. Your key and pairing carry over. Future updates are available under **Advanced → Software Updates**.
+If you already run a development build, open the app on the disk image and choose **Install in Applications**. If it reports a different active sender, choose **Stop Forwarding** in the installed app, retry the installation, then choose **Start Forwarding at Login** in the updated app. Your key and pairing carry over. If the service is stopped and the warning persists, quit the sender windows. In Finder, drag the app from the image into the folder containing your existing copy (often `~/Applications`) and choose **Replace**. Eject the image, open the updated app from that folder, and resume forwarding. Future updates are available under **Advanced → Software Updates**.
 
 ## Update verification
 
